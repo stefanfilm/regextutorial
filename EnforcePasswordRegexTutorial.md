@@ -1,5 +1,9 @@
 # Title (replace with your title)
 
+## Introductory Paragraph
+
+The tutorial will provide a breakdown of the regex to enforce password requirements. This regex checks a string to meet password requirements. The tutorial will show the components of the regex and how they function together.
+
 ## Summary
 
 
