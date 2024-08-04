@@ -6,6 +6,18 @@ The tutorial will provide a breakdown of the regex to enforce password requireme
 
 ## Summary
 
+This is a tutorial about the regex /(?=(.[0-9]))((?=.[A-Za-z0-9])(?=.[A-Z])(?=.[a-z]))^.{8,}$/. This regex is used to enforce password policies.
+
+Lookahead for Digits: (?=.*[0-9]) ensures the password includes at least one numeric digit.
+
+Lookaheads for Alphanumeric and Case Sensitivity:
+
+(?=.*[A-Za-z0-0]) verifies the presence of at least one alphanumeric character.
+(?=.*[A-Z]) requires at least one uppercase letter.
+(?=.*[a-z]) demands at least one lowercase letter.
+Length Requirement: ^.{8,}$ ensures the password is at least 8 characters long.
+
+These elements implement a regex that enforces strong password standards by ensuring a combination of alphanumeric characters, uppercase and lowercase letteres, and a minimum length of 8 characters.
 
 
 ## Table of Contents
