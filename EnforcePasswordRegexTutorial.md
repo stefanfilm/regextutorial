@@ -41,6 +41,9 @@ In the regex /^(?=.[0-9])((?=.[A-Za-z0-9])(?=.[A-Z])(?=.[a-z]))^.{8,}$/, the anc
 $: This anchor denotes the end of the line, ensuring that the regex pattern extends to the end of the string. It means the entire string must conform to the specified pattern. 
 
 ### Quantifiers
+Quantifiers are essential in regular expressions, acting as the architects of repetition within a pattern. These special characters define how many times a specific character or group of characters should appear in a regex pattern. This flexibility to adjust patterns based on varying occurrences makes quantifiers invaluable for tasks such as pattern matching and text manipulation.
+
+The quantifier {8,} specifies a range, requiring at least 8 characters in the password. 
 
 ### Grouping Constructs
 
