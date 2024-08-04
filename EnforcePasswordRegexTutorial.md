@@ -46,6 +46,7 @@ Quantifiers are essential in regular expressions, acting as the architects of re
 The quantifier {8,} specifies a range, requiring at least 8 characters in the password. 
 
 ### Grouping Constructs
+Grouping constructs are used to "capture" or extract specific segments of a matched string. In the regex /^(?=.[0-9])((?=.[A-Za-z0-9])(?=.[A-Z])(?=.[a-z]))^.{8,}$/, there are no grouping constructs present.
 
 ### Bracket Expressions
 
