@@ -34,6 +34,11 @@ These elements implement a regex that enforces strong password standards by ensu
 ## Regex Components
 
 ### Anchors
+In the regex /^(?=.[0-9])((?=.[A-Za-z0-9])(?=.[A-Z])(?=.[a-z]))^.{8,}$/, the anchors play an important role in determining where and how the pattern is applied within a string:
+
+^: This anchor signifies the start of the line, ensuring that the regex pattern matches from the very beginning of the string. It indicates that password validation begins at the start of the input. 
+
+$: This anchor denotes the end of the line, ensuring that the regex pattern extends to the end of the string. It means the entire string must conform to the specified pattern. 
 
 ### Quantifiers
 
