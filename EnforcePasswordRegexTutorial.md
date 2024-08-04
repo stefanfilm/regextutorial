@@ -37,6 +37,8 @@ These elements implement a regex that enforces strong password standards by ensu
 
 ### Quantifiers
 
+### Grouping Constructs
+
 ### Bracket Expressions
 
 ### Character Classes
