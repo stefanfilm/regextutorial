@@ -49,8 +49,10 @@ The quantifier {8,} specifies a range, requiring at least 8 characters in the pa
 Grouping constructs are used to "capture" or extract specific segments of a matched string. In the regex /^(?=.[0-9])((?=.[A-Za-z0-9])(?=.[A-Z])(?=.[a-z]))^.{8,}$/, there are no grouping constructs present.
 
 ### Bracket Expressions
+Bracket expressions define acceptable characters for a specific part of a pattern. They are enclosed in square brackets, [ and ]. Within these brackets, a range expression consists of two characters separated by a hyphen, matching any single character within that range, inclusive. For example, the regex [0123456789] matches any single digit, while [^()] matches any single character except opening or closing parenthesis.
 
 ### Character Classes
+Character classes, enclosed in square brackets [], match any single character contained within them. For instance, [A-Za-z0-9] matches any uppercase letter, lowercase letter, or digit. 
 
 ### The OR Operator
 
