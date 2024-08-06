@@ -55,12 +55,14 @@ Bracket expressions define acceptable characters for a specific part of a patter
 Character classes, enclosed in square brackets [], match any single character contained within them. For instance, [A-Za-z0-9] matches any uppercase letter, lowercase letter, or digit. 
 
 ### The OR Operator
+There is no OR operator in this regex. When an alternative operator is used in a regex, it enables matching any character that fits either of the specified patterns. If a user inputs characters that match either of the options separated by the alternative operator, the result will be the union of the matcehs from both patterns.
 
 ### Flags
+A flag in a regular expression is denoted by characters placed between two slashes. Flags are optional and can be appended at the end of the pattern. In this regex, no flags are used.
 
 ### Character Escapes
-
+These are referred to as literals. To use a special character as a literal, prefix it with a backslash.
 
 ## Author
-
+Stefan Wanigatunga is a junior software developer from Los Angeles, CA. Stefan is also a filmmaker with an MFA from Univeristy of California, Los Angeles. Stefan is enrolled in the University of California, Berkeley Software Coding Bootcamp. https://www.github.com/stefanfilm
 
